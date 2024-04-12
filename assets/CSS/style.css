@@ -26,7 +26,7 @@ body {
 }
 
 .card {
-    background-color: rgb(243, 243, 248);
+    background-color: rgb(255, 255, 255);
     height: 75%;
     margin: 0 auto;
     width: 50%;
@@ -41,7 +41,8 @@ body {
 button {
     outline: none;
     background-color: darkblue;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    padding: .5%;
 }
 
 .Intro button {
@@ -66,16 +67,44 @@ h2 {
 p {
     color: rgb(0, 0, 0);
     float: right;
+    padding: .5%;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: left;
 }
 
 .Intro {
+    display: none;
     margin-bottom: 10vh;
+    background-color: lightcyan;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 main {
-    display: none;
+    display: block;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightcyan;
 }
 
+.questions {
+    display: none;
+}
+
+.score {
+
+}
+
+.highscore {
+
+}
+
+/* .highscore ol {
+    overflow: scroll;
+    max-height: 200px;
+} */
