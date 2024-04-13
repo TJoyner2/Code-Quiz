@@ -1,5 +1,6 @@
 # Code-Quiz
-Quick quiz on javascript knowledge 
+Quick quiz on javascript knowledge
+Quiz to check your knowledge of coding.  
 
 
 # User Story
@@ -19,3 +20,9 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
+
+# Resources
+Tutor
+Various classmates
+W3Schools
+getbootstrap
